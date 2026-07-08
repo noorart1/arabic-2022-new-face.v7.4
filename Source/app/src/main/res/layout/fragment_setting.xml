@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd54f"
+    android:clipChildren="false"
+    tools:context="com.alburagh.alburagh.Fragments.SettingFragment">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:clipChildren="false"
+        android:background="@drawable/setting_bg">
+
+        <ImageView
+            android:id="@+id/background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/settings_bg" />
+
+        <ImageButton
+            android:id="@+id/mail_button"
+            android:layout_width="@dimen/settings_buttons"
+            android:layout_height="@dimen/settings_buttons"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/mail_button" />
+
+        <ImageButton
+            android:id="@+id/telegram_button"
+            android:layout_width="@dimen/settings_buttons"
+            android:layout_height="@dimen/settings_buttons"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/telegram" />
+
+        <ImageButton
+            android:id="@+id/facebook_button"
+            android:layout_width="@dimen/settings_buttons"
+            android:layout_height="@dimen/settings_buttons"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/facebook_button" />
+
+        <ImageButton
+            android:id="@+id/instagram_button"
+            android:layout_width="@dimen/settings_buttons"
+            android:layout_height="@dimen/settings_buttons"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/instagram" />
+
+        <ImageButton
+            android:id="@+id/alburagh_button"
+            android:layout_width="@dimen/settings_buttons"
+            android:layout_height="@dimen/settings_buttons"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/alburagh_button" />
+
+        <ImageButton
+            android:id="@+id/app_button"
+            android:layout_width="@dimen/settings_buttons"
+            android:layout_height="@dimen/settings_buttons"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/app_button"
+            android:visibility="gone"/>
+
+        <ImageButton
+            android:id="@+id/guide_button"
+            android:layout_width="@dimen/settings_buttons"
+            android:layout_height="@dimen/settings_buttons"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/help_button" />
+
+        <ImageButton
+            android:id="@+id/share_button"
+            android:layout_width="@dimen/settings_buttons"
+            android:layout_height="@dimen/settings_buttons"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_share"
+            android:visibility="gone"/>
+
+        <ImageButton
+            android:id="@+id/close_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/home_button" />
+
+<!--        <TextView-->
+<!--            android:text="@string/version_name"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginBottom="236dp"-->
+<!--            android:textColor="@android:color/white"-->
+<!--            android:gravity="center"-->
+<!--            android:textSize="25sp"-->
+<!--            android:id="@+id/settings_vname" />-->
+
+        <TextView
+            android:text="@string/version_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF0000"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:id="@+id/settings_vname" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ppv="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7261c9"
+    android:clipChildren="false"
+    tools:context="com.alburagh.alburagh.Fragments.HomeFragment">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:clipChildren="false">
+
+        <ImageView
+            android:id="@+id/background_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/menu_bg" />
+
+        <ImageButton
+            android:id="@+id/home_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/home_button" />
+
+        <ImageButton
+            android:id="@+id/books_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/books_button" />
+
+        <ImageButton
+            android:id="@+id/games_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/games_button" />
+
+        <ImageButton
+            android:id="@+id/audio_books_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/audio_books_button" />
+
+        <ImageButton
+            android:id="@+id/quran_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/quran_button" />
+
+        <com.filippudak.ProgressPieView.ProgressPieView
+            android:id="@+id/download_progresshm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_alignLeft="@id/quran_button"
+            android:layout_alignRight="@id/quran_button"
+            android:layout_alignTop="@id/quran_button"
+            android:layout_alignBottom="@id/quran_button"
+            android:layout_margin="@dimen/content_item_progress_margin"
+            app:ppvProgressColor="#80000000"
+            app:ppvStrokeColor="#e74c3c"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            ppv:ppvProgressFillType="radial"
+            ppv:ppvStrokeWidth="4dp"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

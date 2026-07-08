@@ -1,0 +1,10 @@
+<resources>
+
+
+
+    <dimen name="index_item_width">120dp</dimen>
+    <dimen name="index_item_height">90dp</dimen>
+    <dimen name="index_item_margin_top">10dp</dimen>
+
+
+</resources>

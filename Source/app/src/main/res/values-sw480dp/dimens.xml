@@ -1,0 +1,132 @@
+<resources>
+    <integer name="content_grid_columns">4</integer>
+    <item name="button_scale" format="float" type="dimen">1.0</item>
+
+    <dimen name="account_button_margin">5dp</dimen>
+    <dimen name="account_fragment_margin">120dp</dimen>
+    <dimen name="account_fragment_margin_top">30dp</dimen>
+    <dimen name="account_view_height">450dp</dimen>
+    <dimen name="account_button_width">206dp</dimen>
+    <dimen name="account_button_height">55dp</dimen>
+    <dimen name="register_progress_dimen">15dp</dimen>
+
+    <dimen name="index_item_width">200dp</dimen>
+    <dimen name="index_item_height">150dp</dimen>
+    <dimen name="index_item_margin_top">20dp</dimen>
+
+    <integer-array name="home_account">
+        <item>1563</item>
+        <item>121</item>
+    </integer-array>
+    <integer-array name="phone_body">
+        <item>50</item>
+        <item>50</item>
+    </integer-array>
+    <integer-array name="num_1">
+        <item>350</item>
+        <item>425</item>
+    </integer-array>
+    <integer-array name="num_2">
+        <item>495</item>
+        <item>435</item>
+    </integer-array>
+    <integer-array name="num_3">
+        <item>630</item>
+        <item>425</item>
+    </integer-array>
+    <integer-array name="num_4">
+        <item>350</item>
+        <item>510</item>
+    </integer-array>
+    <integer-array name="num_5">
+        <item>495</item>
+        <item>520</item>
+    </integer-array>
+    <integer-array name="num_6">
+        <item>630</item>
+        <item>510</item>
+    </integer-array>
+    <integer-array name="num_7">
+        <item>350</item>
+        <item>600</item>
+    </integer-array>
+    <integer-array name="num_8">
+        <item>495</item>
+        <item>610</item>
+    </integer-array>
+    <integer-array name="num_9">
+        <item>630</item>
+        <item>600</item>
+    </integer-array>ص
+    <integer-array name="num_0">
+        <item>495</item>
+        <item>700</item>
+    </integer-array>
+    <integer-array name="soal">
+        <item>380</item>
+        <item>200</item>
+    </integer-array>
+    <integer-array name="pass">
+        <item>380</item>
+        <item>250</item>
+    </integer-array>
+    <integer-array name="home_quran">
+        <item>345</item>
+        <item>260</item>
+    </integer-array>
+    <integer-array name="home_favorite">
+        <item>1563</item>
+        <item>250</item>
+    </integer-array>
+    <integer-array name="home_setting">
+        <item>345</item>
+        <item>87</item>
+    </integer-array>
+    <integer-array name="home_music">
+        <item>340</item>
+        <item>430</item>
+    </integer-array>
+    <integer-array name="home_share">
+        <item>323</item>
+        <item>360</item>
+    </integer-array>
+    <integer-array name="home_rate">
+        <item>1563</item>
+        <item>313</item>
+    </integer-array>
+    <integer-array name="home_books">
+        <item>1169</item>
+        <item>936</item>
+    </integer-array>
+    <integer-array name="home_games">
+        <item>737</item>
+        <item>936</item>
+    </integer-array>
+
+    <integer-array name="list_favorite">
+        <item>360</item>
+        <item>290</item>
+    </integer-array>
+    <integer-array name="list_alter">
+        <item>358</item>
+        <item>443</item>
+    </integer-array>
+    <integer-array name="list_home">
+        <item>360</item>
+        <item>643</item>
+    </integer-array>
+
+    <integer-array name="favorite_books">
+        <item>1130</item>
+        <item>180</item>
+    </integer-array>
+    <integer-array name="favorite_games">
+        <item>1293</item>
+        <item>180</item>
+    </integer-array>
+
+    <integer name="books_plane_x">255</integer>
+    <integer name="games_spaceship_x">220</integer>
+    <integer name="games_spaceship_scale">80</integer>
+
+</resources>

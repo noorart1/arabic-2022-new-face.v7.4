@@ -1,0 +1,232 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context="com.alburagh.alburagh.Fragments.Account.AccountRegisterFragment">
+
+    <com.alburagh.alburagh.UI.AlburaghTextView
+        android:id="@+id/register_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/register_title"
+        android:lineSpacingMultiplier="1.2"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/register_email"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/account_textedit_margin_top"
+        android:background="@drawable/account_edittext_bg"
+        android:hint="@string/register_email_hint"
+        android:gravity="left"
+        android:textSize="16sp"
+        android:inputType="textEmailAddress" />
+
+    <ProgressBar
+        android:id="@+id/email_progress"
+        android:layout_width="@dimen/register_progress_dimen"
+        android:layout_height="@dimen/register_progress_dimen"
+        android:layout_alignTop="@id/register_email"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_toEndOf="@id/register_email"
+        android:layout_toRightOf="@id/register_email"
+        android:indeterminate="true"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/email_status"
+        android:layout_width="@dimen/register_progress_dimen"
+        android:layout_height="@dimen/register_progress_dimen"
+        android:layout_alignTop="@id/register_email"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_toEndOf="@id/register_email"
+        android:layout_toRightOf="@id/register_email"
+        android:src="@drawable/correct_48"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/register_email"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="3dp"
+        android:layout_toLeftOf="@id/register_email"
+        android:layout_toStartOf="@id/register_email"
+        android:text="*"
+        android:textColor="#ce0202"
+        android:textSize="20sp" />
+
+    <com.alburagh.alburagh.UI.AlburaghTextView
+        android:id="@+id/email_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/email_status"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/email_status"
+        android:layout_toRightOf="@id/email_status"
+        android:fontFamily=""
+        android:textColor="#F00" />
+
+    <com.alburagh.alburagh.UI.AlburaghEditText
+        android:id="@+id/register_password"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/account_textedit_margin_top"
+        android:background="@drawable/account_edittext_bg"
+        android:hint="@string/register_password_hint"
+        android:textSize="16sp"
+        android:inputType="textPassword" />
+
+    <ImageView
+        android:id="@+id/password_status"
+        android:layout_width="@dimen/register_progress_dimen"
+        android:layout_height="@dimen/register_progress_dimen"
+        android:layout_alignTop="@id/register_password"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_toEndOf="@id/register_password"
+        android:layout_toRightOf="@id/register_password"
+        android:src="@drawable/correct_48"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/register_password"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="3dp"
+        android:layout_toLeftOf="@id/register_password"
+        android:layout_toStartOf="@id/register_password"
+        android:text="*"
+        android:textColor="#ce0202"
+        android:textSize="20sp" />
+
+    <com.alburagh.alburagh.UI.AlburaghTextView
+        android:id="@+id/password_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/password_status"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/password_status"
+        android:layout_toRightOf="@id/password_status"
+        android:textColor="#F00" />
+
+    <com.alburagh.alburagh.UI.AlburaghEditText
+        android:id="@+id/register_re_password"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/account_textedit_margin_top"
+        android:background="@drawable/account_edittext_bg"
+        android:hint="@string/register_re_password_hint"
+        android:textSize="16sp"
+        android:inputType="textPassword" />
+
+    <ImageView
+        android:id="@+id/re_password_status"
+        android:layout_width="@dimen/register_progress_dimen"
+        android:layout_height="@dimen/register_progress_dimen"
+        android:layout_alignTop="@id/register_re_password"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_toEndOf="@id/register_re_password"
+        android:layout_toRightOf="@id/register_re_password"
+        android:src="@drawable/correct_48"
+        android:visibility="invisible" />
+
+    <com.alburagh.alburagh.UI.AlburaghTextView
+        android:id="@+id/re_password_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/re_password_status"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/re_password_status"
+        android:layout_toRightOf="@id/re_password_status"
+        android:textColor="#F00" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/register_re_password"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="3dp"
+        android:layout_toLeftOf="@id/register_re_password"
+        android:layout_toStartOf="@id/register_re_password"
+        android:text="*"
+        android:textColor="#ce0202"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/register_country"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_re_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/account_textedit_margin_top"
+        android:textSize="16sp"
+        android:background="@drawable/account_edittext_bg" />
+
+
+
+    <com.alburagh.alburagh.UI.AlburaghEditText
+        android:id="@+id/register_full_name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_country"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/account_textedit_margin_top"
+        android:background="@drawable/account_edittext_bg"
+        android:hint="@string/register_full_name_password_hint"
+        android:textSize="16sp"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/register_full_name"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="3dp"
+        android:layout_toLeftOf="@id/register_full_name"
+        android:layout_toStartOf="@id/register_full_name"
+        android:text="*"
+        android:textColor="#ce0202"
+        android:textSize="20sp" />
+
+    <com.alburagh.alburagh.UI.AlburaghButton
+        android:id="@+id/register_submit"
+        android:layout_width="@dimen/account_button_width"
+        android:layout_height="@dimen/account_button_height"
+        android:layout_below="@id/register_full_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:text="@string/register_submit_text"
+        android:layout_marginBottom="15dp" />
+
+</RelativeLayout>

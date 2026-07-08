@@ -1,0 +1,228 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context="com.alburagh.alburagh.Fragments.Account.AccountSubscriptionFragment">
+
+    <RelativeLayout
+        android:id="@+id/bought_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone">
+
+        <com.alburagh.alburagh.UI.AlburaghTextView
+            android:id="@+id/sub_bought_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/subscription_bought_title"
+            android:textSize="20sp" />
+
+        <com.alburagh.alburagh.UI.AlburaghTextView
+            android:id="@+id/sub_bought_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sub_bought_title"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/subscription_exists"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/notsupported_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone">
+
+        <com.alburagh.alburagh.UI.AlburaghTextView
+            android:id="@+id/sub_notsupported_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/title_billing_notsupported"
+            android:textColor="#ed1c24"
+            android:textSize="20sp" />
+
+        <com.alburagh.alburagh.UI.AlburaghTextView
+            android:id="@+id/sub_notsupported_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sub_notsupported_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/body_billing_notsupported"
+            android:textColor="#ed1c24"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/subscription_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminate="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/buy_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/bought_layout"
+        android:layout_toEndOf="@+id/bought_layout">
+
+        <com.alburagh.alburagh.UI.AlburaghTextView
+            android:id="@+id/sub_buy_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.2"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="@string/subscription_title"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/buy_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sub_buy_title"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <com.alburagh.alburagh.UI.AlburaghTextView
+                    android:id="@+id/sub_6month_price_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textSize="18sp"
+                    android:text="@string/subscription_6month_price_label" />
+
+
+                <Button
+                    android:id="@+id/sub_6month_buy_button"
+                    android:layout_width="@dimen/account_button_width"
+                    android:layout_height="@dimen/account_button_height"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/subscription_monthly_buy_button_text"
+                    android:textSize="20sp"
+
+                    android:background="@drawable/sixmonth_buy" />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="30dp"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.alburagh.alburagh.UI.AlburaghTextView
+                    android:id="@+id/sub_monthly_price_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"
+                    android:text="@string/subscription_monthly_price_label" />
+
+                <Button
+                    android:id="@+id/sub_monthly_buy_button"
+                    android:layout_width="@dimen/account_button_width"
+                    android:layout_height="@dimen/account_button_height"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="@string/subscription_monthly_buy_button_text"
+                    android:textSize="20sp"
+                    android:background="@drawable/monthly_buy" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/buy_buttons2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sub_buy_title"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.alburagh.alburagh.UI.AlburaghTextView
+                    android:id="@+id/sub_yearly_price_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="115dp"
+                    android:textSize="18sp"
+                    android:text="@string/subscription_yearly_price_label" />
+
+                <Button
+                    android:id="@+id/sub_annual_buy_button"
+                    android:layout_width="@dimen/account_button_width"
+                    android:layout_height="@dimen/account_button_height"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/subscription_yearly_buy_button_text"
+                    android:textSize="20sp"
+                    android:background="@drawable/yearly_buy" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <com.alburagh.alburagh.UI.AlburaghTextView
+            android:id="@+id/sub_restore_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buy_buttons"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="@string/subscription_restore_text"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

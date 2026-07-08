@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ac000000"
+    android:clickable="true"
+    android:paddingLeft="@dimen/account_fragment_margin"
+    android:paddingTop="@dimen/account_fragment_margin_top"
+    android:paddingRight="@dimen/account_fragment_margin"
+    android:paddingBottom="0dp"
+    tools:context="com.alburagh.alburagh.Fragments.Account.AccountFragment">
+
+    <RelativeLayout
+        android:id="@+id/account_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/buttons_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true">
+
+            <com.alburagh.alburagh.UI.AlburaghButton
+                android:id="@+id/code_button"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/account_tab_height"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/account_button_tab_bg"
+                android:text="@string/account_code_button_text"
+                android:textSize="16sp" />
+
+            <com.alburagh.alburagh.UI.AlburaghButton
+                android:id="@+id/account_button"
+                android:layout_width="@dimen/account_tab_width"
+                android:layout_height="@dimen/account_tab_height"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/account_button_tab_bg"
+                android:text="@string/account_subscription_button_text"
+                android:textSize="16sp" />
+
+            <com.alburagh.alburagh.UI.AlburaghButton
+                android:id="@+id/register_button"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/account_tab_height"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/account_button_tab_bg"
+                android:text="@string/account_register_button_text"
+                android:textSize="16sp" />
+
+            <com.alburagh.alburagh.UI.AlburaghButton
+                android:id="@+id/login_button"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/account_tab_height"
+                android:background="@drawable/account_button_tab_bg"
+                android:text="@string/account_login_button_text"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/account_tabs_gap"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/buttons_layout"
+            android:layout_alignEnd="@id/buttons_layout"
+            android:background="#FFEC00" />
+
+        <ScrollView
+            android:id="@+id/tab_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/buttons_layout"
+            android:background="@drawable/account_tab_bg">
+
+            <RelativeLayout
+                android:id="@+id/tab_place_holder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

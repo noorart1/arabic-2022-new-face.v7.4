@@ -1,0 +1,207 @@
+<resources>
+
+    <string name="version_name">7.4</string>
+    <string name="app_name">تطبيق البراق للأطفال</string>
+    <string name="title_activity_main">تطبيق البراق للأطفال</string>
+    <string name="title_activity_fragment">تطبيق البراق للأطفال</string>
+
+    <!-- Common -->
+    <string name="ok">حسنا</string>
+    <string name="cancel">إلغاء</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="register">إنشاء حساب</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="error">خطأ</string>
+    <string name="subscribe">اشتراك</string>
+    <string name="exit">خروج</string>
+    <string name="update">تحديث</string>
+    <string name="later">لاحقا</string>
+
+    <!-- Content Details -->
+    <string name="details_series_label">السلسلة:</string>
+    <string name="details_title_label">العنوان:</string>
+    <string name="details_author_label">المؤلف:</string>
+    <string name="details_publisher_label">الناشر:</string>
+    <string name="details_illustrator_label">الرسام:</string>
+    <string name="details_age_group_label">الفئة العمرية:</string>
+    <string name="details_file_size_label">حجم الملف:</string>
+    <string name="details_description_label">الوصف:</string>
+    <string name="details_read_count_label">عدد القراءات</string>
+    <string name="details_samples_button_text">عينات</string>
+    <string name="details_read_button_text">Read Content</string>
+    <string name="details_download_button_text">تحميل المحتوى</string>
+    <string name="details_facebook_button_text">Facebook</string>
+    <string name="details_twitter_button_text">Twitter</string>
+    <string name="details_sample_image_description">عينة صورة</string>
+    <string name="details_cover_description">Content Cover</string>
+    <string name="details_rating_star_description">Rating Star</string>
+
+    <!-- Settings -->
+    <string name="settings_email">البريد الإلكتروني</string>
+    <string name="settings_twitter">Twitter</string>
+    <string name="settings_facebook">Facebook</string>
+    <string name="settings_site">Alburagh.com</string>
+    <string name="settings_app_site">alburagh.com/app</string>
+    <string name="settings_guide">دليل</string>
+    <string name="setting_version_number">رقم الإصدار</string>
+    <string name="setting_footer_text">Alburagh hopes pleasure and interest for you dear users</string>
+    <string name="setting_other_apps_label">تطبيقات أخرى</string>
+
+    <!-- Account -->
+    <string name="account_login_button_text">تسجيل الدخول</string>
+    <string name="account_register_button_text">أنشئ حسابك</string>
+    <string name="account_subscription_button_text">الاشتراك</string>
+    <string name="account_code_button_text">رمز التفعيل</string>
+    <string name="account_details_logout_message">هل أنت متأكد أنك تريد تسجيل الخروج؟?</string>
+
+    <string name="login_title">تسجيل الدخول إلى حسابك</string>
+    <string name="login_email_hint">البريد الإلكتروني</string>
+    <string name="login_password_hint">كلمة المرور</string>
+    <string name="login_submit_text">تسجيل الدخول</string>
+    <string name="login_forgot_password_text">نسيت كلمة المرور؟</string>
+
+    <string name="register_title">ٱنشئ حسابك لدى تطبيق البراق مجانا..\n لتحصل على قصتين ولعبتين مجانا وبشكل دائمي</string>
+    <string name="register_email_hint">البريد الإلكتروني</string>
+    <string name="register_password_hint">كلمة المرور</string>
+    <string name="register_re_password_hint">تأكيد كلمة المرور</string>
+    <string name="register_full_name_password_hint">الاسم الكامل</string>
+    <string name="register_submit_text">تسجيل</string>
+    <string name="register_mail_not_valid">غير صالح</string>
+    <string name="register_password_required">Required</string>
+    <string name="register_password_confirm_not_match">غير مطابقة</string>
+    <string name="register_password_too_short">6 أحرف على الأقل</string>
+    <string name="register_successful_message">مبروك .. تم إنشاء حسابك بنجاح.. وقد حصلت على قصتين ولعبتين مجانا وبشكل دائم</string>
+    <string name="register_unsuccessful_message">لم يتم التسجيل</string>
+
+    <string name="off_50">خصم ٥٠ بالمئة</string>
+    <string name="subscription_title">اشترك معنا لتحصل على جميع القصص والتسالي طول مدة الاشتراك</string>
+    <string name="subscription_monthly_price_label">  قيمة الاشتراك الشهري:</string>
+    <string name="subscription_6month_price_label">قيمة الاشتراك ستة أشهر:</string>
+    <string name="subscription_monthly_buy_button_text">الاشتراك</string>
+    <string name="subscription_yearly_price_label">قيمة الاشتراك السنوي:</string>
+    <string name="subscription_yearly_buy_button_text">الاشتراك</string>
+    <string name="subscription_restore_text">استعادة مشتريات جوجل بلي</string>
+    <string name="subscription_bought_title">عزيزي المستخدم:</string>
+    <string name="subscription_cancel_text">الغاء الاشتراك</string>
+    <string name="subscription_exists">انت الآن مشترك في تطبيق البراق للأطفال ويمكنك استخدام جميع المحتوى حتى نهاية فترة اشتراكك.</string>
+    <string name="body_billing_notsupported">نأسف.. خدمة الشراء غير متاحة في بلدك</string>
+    <string name="title_billing_notsupported">:عزيزنا المستخدم</string>
+
+    <string name="code_title">رمز تفعيل الاشتراك</string>
+    <string name="code_remaining_days_label_text">عدد الأيام المتبقية من صلاحية التفعيل</string>
+    <string name="code_code_hint">رمز التفعيل</string>
+    <string name="code_submit_text">التفعيل</string>
+    <string name="code_login_message">يرجى الدخول الى حسابك في تطبيق البراق، وإذا ليس لديك حساب فيرجى إنشاء حساب جديد.</string>
+    <string name="code_submitted_message">تم تفعيل اشتراكك بنجاح.. ويمكنك الآن استخدام جميع المحتوى من الكتب والتسالي والمزايا طول مدة الاشتراك</string>
+    <string name="code_submit_error_message">الرمز الذي أدخلته غير صالح</string>
+    <string name="code_remaining_text" formatted="false">%d يوم و %s ساعة</string>
+
+    <string name="change_pass_title">تغيير كلمة المرور</string>
+    <string name="change_old_pass_hint">كلمة المرور القديمة</string>
+    <string name="change_new_password_hint">كلمة المرور الجديدة</string>
+    <string name="change_confirm_new_password_hint">تأكيد كلمة المرور </string>
+    <string name="change_submit_text">تغيير كلمة المرور</string>
+    <string name="change_pass_password_changed_message">تم تغيير كلمة المرور بنجاح</string>
+
+    <string name="reset_pass_submit_text">أرسل</string>
+
+    <string name="account_details_title">يمكنك تسجيل الخروج من حسابك دون قلق.. والدخول في أي وقت لاحق.</string>
+    <string name="account_details_change_password_text">تغيير كلمة المرور</string>
+    <string name="account_details_logout">تسجيل الخروج</string>
+
+    <string name="account_back">عودة</string>
+
+    <string name="account_error_login">البريد الإلكتروني أو كلمة المرور غير صحيحة</string>
+    <string name="account_error_reset_password">لا يمكن إعادة تعيين كلمة المرور</string>
+    <string name="account_error_change_password">خطأ كلمة المرور تغيير</string>
+    <string name="account_error_submit_code">رمز غير صالح</string>
+
+    <string name="account_warning_message">اشترك معنا لتحصل على جميع القصص والتسالي طول مدة الاشتراك</string>
+
+    <string name="purchase_service_unavailable">آلية الدفع غير متاحة حاليا</string>
+    <string name="purchase_unsuccessful">لم تتم عملية الاشتراك</string>
+
+
+    <!-- Content -->
+    <string name="content_download_again">حاول ثانية</string>
+    <string name="content_download_error_title">خطأ في التحميل</string>
+    <string name="content_download_error_message" formatted="false">Error downloading \"%s\".\nPlease try again.</string>
+    <string name="content_list_download_error_message">خطأ قائمة المحتويات التنزيل.\nالرجاء المحاولة مرة أخرى.</string>
+    <string name="content_list_try_again">حاول ثانية</string>
+    <string name="content_delete_message" formatted="false">هل أنت متأكد أنك تريد حذف \"%s\".</string>
+    <string name="account_password_reset_alert_title">تم تغيير كلمة السر</string>
+    <string name="account_password_reset_alert_message">كلمة مرور جديدة يتم إرسالها إلى عنوان البريد الإلكتروني الخاص بك</string>
+    <string name="settings_email_text">البريد الإلكتروني</string>
+
+    <string name="sub_coming_soon_title">انتباه</string>
+    <string name="sub_coming_soon_message">هذه القابلية غير متاحة حاليا.</string>
+
+    <string name="rate_thanks_message">شكرا على تقييمك</string>
+
+    <string name="double_back_to_exit">تم تحميل الجزء الثلاثين من القرآن الكريم</string>
+
+    <!-- Links -->
+    <string name="link_share">http://play.google.com/store/apps/details?id=com.alburagh.alburagh.app</string>
+    <string name="link_guide">https://alburagh.com/apps</string>
+    <string name="link_app_site">https://alburagh.com/apps/</string>
+    <string name="link_pub">https://alburagh.com</string>
+    <string name="link_twitter">http://twitter.com/alburagh/</string>
+    <string name="link_facebook">https://www.facebook.com/daralburagh</string>
+    <string name="link_email">alburaghapp@gmail.com</string>
+
+    <string name="link_telegram">https://t.me/daralburagh</string>
+    <string name="link_instagram">http://instagram.com/daralburagh</string>
+
+    <string name="share_title">تطبيق البراق للأطفال</string>
+    <string name="email_title">تعرّف على تطبيق البراق للأطفال</string>
+    <string name="email_message">استمتعت على تطبيق البراق للأطفال .. أرجو تحميله والتعرّف عليه. \nhttp://play.google.com/store/apps/details?id=com.alburagh.alburagh.app</string>
+
+
+    <!-- Other -->
+    <string name="new_version_available_message">تم اصدار النسخة الجديدة من تطبيق البراق للأطفال هل ترغب بالتحديث الآن؟</string>
+
+
+    <string name="rate_message">إدعم تطبيق البراق للأطفال بتقييمه بخمس نجوم</string>
+    <string name="rate_now">الآن</string>
+    <string name="rate_later">لاحقاً</string>
+    <string name="rate_newer">أبداً</string>
+    <string name="request_get_account_permission_message">هذا التطبيق يحتاج الوصول إلى حسابك</string>
+    <string name="no_remaining_time">-----</string>
+
+    <string name="quran_download_ended">تم تحميل الجزء الثلاثين من القرآن الكريم.</string>
+
+    <string name="book_update_message">توجد نسخة جديدة من هذا الكتاب .. هل ترغب بتحميلها الآن؟</string>
+    <string name="game_update_message">توجد نسخة جديدة من هذه اللعبة .. هل ترغب بتحميلها الآن؟</string>
+    <string name="quran_update_message">توجد نسخة جديدة من القرآن .. هل ترغب بتحميلها الآن؟</string>
+    <string name="delete_progress_message">الرجاء الانتظار ...</string>
+    <string name="purchase_error">عذرا .. آلية الدفع غير متاحة حاليا</string>
+
+    <string name="new_version_available">صدرت النسخة الجديدة من التطبيق البراق للأطفال.. هل ترغب بالتحديث الآن؟</string>
+    <string name="write_permission_message">مرحبا
+\nبسبب فصل ملفات اللعبة عن الكتب في تطبيق البراق
+في الإصدار الجديد من Android 11 ، نحتاج إلى الوصول إلى ملفات الهاتف لاستخدام البرنامج والوصول إلى الملفات القابلة للتنفيذ
+وإلا فإنه لا يمكن استخدام البرنامج.\n
+لاحظ أن جميع معلوماتك وملفاتك الخاصة آمنة.</string>
+    <string name="title_files_permission">الوصول إلى الملفات</string>
+    <string name="title_accounts_permission">الوصول إلى الحسابات</string>
+    <string name="grant_permission_button">سماح</string>
+    <string name="permit_permission_button">رفض</string>
+
+    <string name="message_to_exit">هل أنت متأكد أنك تريد الخروج من البرنامج؟</string>
+
+    <!-- Lock -->
+    <string name="one">واحد</string>
+    <string name="two">اثنان</string>
+    <string name="three">ثلاثة</string>
+    <string name="four">أربعة</string>
+    <string name="five">خمسة</string>
+    <string name="six">ستة</string>
+    <string name="seven">سبعة</string>
+    <string name="eight">ثمانية</string>
+    <string name="nine">تسعة</string>
+    <string name="zero">صفر</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

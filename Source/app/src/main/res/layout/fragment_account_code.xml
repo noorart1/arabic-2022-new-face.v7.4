@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:clickable="true"
+    tools:context="com.alburagh.alburagh.Fragments.Account.AccountCodeFragment">
+
+    <com.alburagh.alburagh.UI.AlburaghTextView
+        android:id="@+id/code_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/code_title"
+        android:textSize="20sp" />
+
+    <com.alburagh.alburagh.UI.AlburaghTextView
+        android:id="@+id/code_remaining_days_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/code_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:text="@string/code_remaining_days_label_text" />
+
+    <TextView
+        android:id="@+id/code_remaining_days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/code_remaining_days_label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:text="@string/no_remaining_time" />
+
+    <com.alburagh.alburagh.UI.AlburaghTextView
+        android:id="@+id/error_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/code_remaining_days"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#F00"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/code_code"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/error_label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/account_edittext_bg"
+        android:gravity="center"
+        android:hint="@string/code_code_hint"
+        android:layout_centerInParent="true"
+        android:textSize="16sp"
+        android:singleLine="true" />
+
+    <com.alburagh.alburagh.UI.AlburaghButton
+        android:id="@+id/code_submit"
+        android:layout_width="@dimen/account_button_width"
+        android:layout_height="@dimen/account_button_height"
+        android:layout_below="@id/code_code"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:text="@string/code_submit_text" />
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="apcStyles">@style/AppPageControlStyle</item>
+    </style>
+
+    <style name="AppTheme" parent="Base"></style>
+
+    <style name="AppPageControlStyle">
+        <item name="apc_indicatorSize">6dp</item>
+        <item name="apc_indicatorDistance">6dp</item>
+        <item name="apc_currentIndicatorSize">6dp</item>
+        <item name="apc_colorCurrentDefault">#e1878787</item>
+        <item name="apc_colorCurrentPressed">#e1868686</item>
+        <item name="apc_colorNormalDefault">#e1393939</item>
+        <item name="apc_colorNormalPressed">#e1383838</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

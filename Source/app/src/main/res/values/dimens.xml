@@ -1,0 +1,171 @@
+<resources>
+    <color name="text_color">#0F0</color>
+
+    <integer name="content_grid_columns">4</integer>
+    <item name="button_scale" format="float" type="dimen">1.5</item>
+
+    <dimen name="register_progress_dimen">15dp</dimen>
+    <dimen name="account_textedit_margin_top">4dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="details_margin_right">10dp</dimen>
+    <dimen name="details_label_min_width">80dp</dimen>
+
+    <dimen name="account_tab_width">120dp</dimen>
+    <dimen name="account_tab_height">45dp</dimen>
+    <dimen name="account_tab_padding_bottom">20dp</dimen>
+    <dimen name="account_button_margin">5dp</dimen>
+    <dimen name="account_button_width">188dp</dimen>
+    <dimen name="account_button_height">50dp</dimen>
+    <dimen name="account_button_width_off">160dp</dimen>
+    <dimen name="account_button_height_off">45dp</dimen>
+    <dimen name="account_fragment_margin">50dp</dimen>
+    <dimen name="account_fragment_margin_top">10dp</dimen>
+    <dimen name="account_view_height">350dp</dimen>
+    <dimen name="account_border">10dp</dimen>
+
+    <dimen name="content_item_books_margin_top">-30dp</dimen>
+    <dimen name="content_item_games_margin_top">-50dp</dimen>
+    <dimen name="content_icon_padding">3dp</dimen>
+    <dimen name="content_item_progress_margin">15dp</dimen>
+
+    <dimen name="index_item_width">140dp</dimen>
+    <dimen name="index_item_height">120dp</dimen>
+    <dimen name="index_item_margin_top">10dp</dimen>
+    <dimen name="settings_buttons">50px</dimen>
+
+    <integer-array name="home_account">
+        <item>1563</item>
+        <item>145</item>
+    </integer-array>
+
+    <integer-array name="phone_body">
+        <item>500</item>
+        <item>100</item>
+    </integer-array>
+    <integer-array name="num_1">
+        <item>125</item>
+        <item>495</item>
+    </integer-array>
+    <integer-array name="num_2">
+        <item>295</item>
+        <item>505</item>
+    </integer-array>
+    <integer-array name="num_3">
+        <item>465</item>
+        <item>495</item>
+    </integer-array>
+    <integer-array name="num_4">
+        <item>125</item>
+        <item>600</item>
+    </integer-array>
+    <integer-array name="num_5">
+        <item>295</item>
+        <item>610</item>
+    </integer-array>
+    <integer-array name="num_6">
+        <item>465</item>
+        <item>600</item>
+    </integer-array>
+    <integer-array name="num_7">
+        <item>125</item>
+        <item>710</item>
+    </integer-array>
+    <integer-array name="num_8">
+        <item>295</item>
+        <item>720</item>
+    </integer-array>
+    <integer-array name="num_9">
+        <item>465</item>
+        <item>710</item>
+    </integer-array>
+    <integer-array name="num_0">
+        <item>295</item>
+        <item>830</item>
+    </integer-array>
+    <integer-array name="soal">
+        <item>380</item>
+        <item>225</item>
+    </integer-array>
+    <integer-array name="pass">
+        <item>380</item>
+        <item>300</item>
+    </integer-array>
+    <integer-array name="home_quran">
+        <item>318</item>
+        <item>305</item>
+    </integer-array>
+    <integer-array name="home_favorite">
+        <item>1563</item>
+        <item>310</item>
+    </integer-array>
+    <integer-array name="home_setting">
+        <item>321</item>
+        <item>107</item>
+    </integer-array>
+    <integer-array name="home_music">
+        <item>305</item>
+        <item>328</item>
+    </integer-array>
+    <integer-array name="home_share">
+        <item>311</item>
+        <item>464</item>
+    </integer-array>
+
+
+    <integer-array name="menu_audio_books">
+        <item>1219</item>
+        <item>786</item>
+    </integer-array>
+    <integer-array name="menu_quran">
+        <item>687</item>
+        <item>786</item>
+    </integer-array>
+    <integer-array name="menu_games">
+        <item>687</item>
+        <item>426</item>
+    </integer-array>
+    <integer-array name="menu_books">
+        <item>1219</item>
+        <item>426</item>
+    </integer-array>
+    <integer-array name="menu_home">
+        <item>315</item>
+        <item>86</item>
+    </integer-array>
+
+
+    <integer-array name="home_rate">
+        <item>1563</item>
+        <item>370</item>
+    </integer-array>
+    <integer-array name="list_favorite">
+        <item>360</item>
+        <item>142</item>
+    </integer-array>
+    <integer-array name="list_alter">
+        <item>360</item>
+        <item>363</item>
+    </integer-array>
+    <integer-array name="list_home">
+        <item>315</item>
+        <item>86</item>
+    </integer-array>
+
+    <integer-array name="favorite_books">
+        <item>1300</item>
+        <item>180</item>
+    </integer-array>
+    <integer-array name="favorite_games">
+        <item>1580</item>
+        <item>180</item>
+    </integer-array>
+    <integer-array name="favorite_sound_books">
+        <item>1020</item>
+        <item>180</item>
+    </integer-array>
+
+    <integer name="books_plane_x">555</integer>
+    <integer name="games_spaceship_x">500</integer>
+    <integer name="games_spaceship_scale">80</integer>
+
+</resources>

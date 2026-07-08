@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context="com.alburagh.alburagh.Fragments.Account.AccountResetPasswordFragment">
+
+    <com.alburagh.alburagh.UI.AlburaghTextView
+        android:id="@+id/change_pass_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/change_pass_title"
+        android:textSize="20sp" />
+
+    <com.alburagh.alburagh.UI.AlburaghTextView
+        android:id="@+id/error_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/change_pass_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#F00"
+        android:textSize="15sp" />
+
+    <com.alburagh.alburagh.UI.AlburaghEditText
+        android:id="@+id/change_pass_email"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/change_pass_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/account_edittext_bg"
+        android:hint="@string/login_email_hint"
+        android:inputType="textEmailAddress" />
+
+    <com.alburagh.alburagh.UI.AlburaghButton
+        android:id="@+id/change_pass_submit"
+        android:layout_width="@dimen/account_button_width"
+        android:layout_height="@dimen/account_button_height"
+        android:layout_below="@id/change_pass_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/reset_pass_submit_text" />
+
+    <com.alburagh.alburagh.UI.AlburaghTextView
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/change_pass_submit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:text="@string/account_back" />
+
+</RelativeLayout>

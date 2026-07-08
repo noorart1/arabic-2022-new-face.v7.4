@@ -1,0 +1,17 @@
+<resources>
+
+
+
+    <dimen name="content_item_books_margin_top">-30dp</dimen>
+    <dimen name="content_item_games_margin_top">-50dp</dimen>
+    <color name="text_color">#F00</color>
+
+    <style name="AppPageControlStyle">
+        <item name="apc_indicatorSize">8dp</item>
+        <item name="apc_indicatorDistance">8dp</item>
+        <item name="apc_currentIndicatorSize">8dp</item>
+    </style>
+
+
+
+</resources>

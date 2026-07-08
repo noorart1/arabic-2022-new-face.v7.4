@@ -1,0 +1,190 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingEnd="100dp"
+    android:paddingLeft="100dp"
+    android:paddingRight="100dp"
+    android:paddingStart="100dp"
+    tools:context="com.alburagh.alburagh.Fragments.IndexPageFragment">
+
+    <ImageView
+        android:id="@+id/thumb_01"
+        android:layout_width="@dimen/index_item_width"
+        android:layout_height="@dimen/index_item_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/index_item_margin_top"
+        android:background="@drawable/index_item_bg" />
+
+    <ImageView
+        android:id="@+id/thumb_02"
+        android:layout_width="@dimen/index_item_width"
+        android:layout_height="@dimen/index_item_height"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/index_item_margin_top"
+        android:background="@drawable/index_item_bg" />
+
+    <ImageView
+        android:id="@+id/thumb_03"
+        android:layout_width="@dimen/index_item_width"
+        android:layout_height="@dimen/index_item_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/index_item_margin_top"
+        android:background="@drawable/index_item_bg" />
+
+    <ImageView
+        android:id="@+id/thumb_04"
+        android:layout_width="@dimen/index_item_width"
+        android:layout_height="@dimen/index_item_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/thumb_01"
+        android:layout_marginTop="@dimen/index_item_margin_top"
+        android:background="@drawable/index_item_bg" />
+
+    <ImageView
+        android:id="@+id/thumb_05"
+        android:layout_width="@dimen/index_item_width"
+        android:layout_height="@dimen/index_item_height"
+        android:layout_below="@id/thumb_02"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/index_item_margin_top"
+        android:background="@drawable/index_item_bg" />
+
+    <ImageView
+        android:id="@+id/thumb_06"
+        android:layout_width="@dimen/index_item_width"
+        android:layout_height="@dimen/index_item_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/thumb_03"
+        android:layout_marginTop="@dimen/index_item_margin_top"
+        android:background="@drawable/index_item_bg" />
+
+
+    <RelativeLayout
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@id/thumb_01"
+        android:layout_alignRight="@id/thumb_01"
+        android:layout_alignTop="@id/thumb_01"
+        android:layout_marginRight="-15dp"
+        android:layout_marginEnd="-15dp"
+        android:layout_marginTop="-15dp"
+        android:background="@drawable/index_number_bg">
+
+        <TextView
+            android:id="@+id/num_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#FFF" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@id/thumb_02"
+        android:layout_alignRight="@id/thumb_02"
+        android:layout_alignTop="@id/thumb_02"
+        android:layout_marginRight="-15dp"
+        android:layout_marginEnd="-15dp"
+        android:layout_marginTop="-15dp"
+        android:background="@drawable/index_number_bg">
+
+        <TextView
+            android:id="@+id/num_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#FFF" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@id/thumb_03"
+        android:layout_alignRight="@id/thumb_03"
+        android:layout_alignTop="@id/thumb_03"
+        android:layout_marginRight="-15dp"
+        android:layout_marginEnd="-15dp"
+        android:layout_marginTop="-15dp"
+        android:background="@drawable/index_number_bg">
+
+        <TextView
+            android:id="@+id/num_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#FFF" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@id/thumb_04"
+        android:layout_alignRight="@id/thumb_04"
+        android:layout_alignTop="@id/thumb_04"
+        android:layout_marginRight="-15dp"
+        android:layout_marginEnd="-15dp"
+        android:layout_marginTop="-15dp"
+        android:background="@drawable/index_number_bg">
+
+        <TextView
+            android:id="@+id/num_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#FFF" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@id/thumb_05"
+        android:layout_alignRight="@id/thumb_05"
+        android:layout_alignTop="@id/thumb_05"
+        android:layout_marginRight="-15dp"
+        android:layout_marginEnd="-15dp"
+        android:layout_marginTop="-15dp"
+        android:background="@drawable/index_number_bg">
+
+        <TextView
+            android:id="@+id/num_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#FFF" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@id/thumb_06"
+        android:layout_alignRight="@id/thumb_06"
+        android:layout_alignTop="@id/thumb_06"
+        android:layout_marginRight="-15dp"
+        android:layout_marginEnd="-15dp"
+        android:layout_marginTop="-15dp"
+        android:background="@drawable/index_number_bg">
+
+        <TextView
+            android:id="@+id/num_06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#FFF" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ac000000"
+    android:clickable="true"
+    android:paddingBottom="0dp"
+    android:paddingLeft="@dimen/account_fragment_margin"
+    android:paddingRight="@dimen/account_fragment_margin"
+    android:paddingTop="@dimen/account_fragment_margin_top"
+    android:clipChildren="true"
+    tools:context="com.alburagh.alburagh.Fragments.Account.AccountFragment">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:clipChildren="false">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/phone_body"
+            android:background="@drawable/phone_body"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+            <ImageButton
+                android:text="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/num_3"
+                android:scaleType="fitCenter"
+                android:id="@+id/lock3"/>
+
+            <ImageButton
+                android:text="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/num_2"
+                android:scaleType="fitCenter"
+                android:id="@+id/lock2" />
+
+            <ImageButton
+                android:text="4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/num_4"
+                android:scaleType="fitCenter"
+                android:id="@+id/lock4" />
+
+            <ImageButton
+                android:text="6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/num_6"
+                android:scaleType="fitCenter"
+                android:id="@+id/lock6" />
+
+            <ImageButton
+                android:text="7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/num_7"
+                android:scaleType="fitCenter"
+                android:id="@+id/lock7" />
+
+            <ImageButton
+                android:text="8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/num_8"
+                android:scaleType="fitCenter"
+                android:id="@+id/lock8"/>
+
+            <ImageButton
+                android:text="9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/num_9"
+                android:scaleType="fitCenter"
+                android:id="@+id/lock9" />
+
+            <ImageButton
+                android:text="0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/num_0"
+                android:scaleType="fitCenter"
+                android:id="@+id/lock0" />
+
+            <ImageButton
+                android:text="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/num_5"
+                android:scaleType="fitCenter"
+                android:id="@+id/lock5" />
+
+            <ImageButton
+                android:text="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/num_1"
+                android:scaleType="fitCenter"
+                android:id="@+id/lock1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pass"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:layout_centerHorizontal="true"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/soal"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
